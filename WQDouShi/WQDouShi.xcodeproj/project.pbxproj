@@ -31,6 +31,11 @@
 		3298EE6D1E79365100C46937 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE611E79365100C46937 /* UIView+Extension.swift */; };
 		3298EE6E1E79365100C46937 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE621E79365100C46937 /* UIViewController+Extension.swift */; };
 		3298EE701E7936D200C46937 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE6F1E7936D200C46937 /* Constant.swift */; };
+		3298EE721E793F6E00C46937 /* SongGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE711E793F6E00C46937 /* SongGroup.swift */; };
+		3298EE741E793F7700C46937 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE731E793F7700C46937 /* Song.swift */; };
+		3298EE761E793F9200C46937 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE751E793F9200C46937 /* SongDetail.swift */; };
+		3298EE781E79416E00C46937 /* MusicCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE771E79416E00C46937 /* MusicCollectionCell.swift */; };
+		3298EE7B1E79438400C46937 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE7A1E79438400C46937 /* NetWorkTool.swift */; };
 		9E252F754B285944DEAF8532 /* Pods_WQDouShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +88,11 @@
 		3298EE611E79365100C46937 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3298EE621E79365100C46937 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		3298EE6F1E7936D200C46937 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3298EE711E793F6E00C46937 /* SongGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongGroup.swift; sourceTree = "<group>"; };
+		3298EE731E793F7700C46937 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		3298EE751E793F9200C46937 /* SongDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
+		3298EE771E79416E00C46937 /* MusicCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCollectionCell.swift; sourceTree = "<group>"; };
+		3298EE7A1E79438400C46937 /* NetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
 		6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQDouShi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01288642126705866D75930 /* Pods-WQDouShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQDouShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQDouShi/Pods-WQDouShi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +157,7 @@
 		3298EE021E79286900C46937 /* WQDouShi */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE791E79436900C46937 /* Tool */,
 				3298EE561E79365100C46937 /* Extesion */,
 				3298EE631E79365100C46937 /* Third Party */,
 				3298EE311E7930F800C46937 /* Discover */,
@@ -365,6 +376,9 @@
 		3298EE471E7930F800C46937 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE711E793F6E00C46937 /* SongGroup.swift */,
+				3298EE731E793F7700C46937 /* Song.swift */,
+				3298EE751E793F9200C46937 /* SongDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -372,6 +386,7 @@
 		3298EE481E7930F800C46937 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE771E79416E00C46937 /* MusicCollectionCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -414,6 +429,14 @@
 			children = (
 			);
 			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		3298EE791E79436900C46937 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3298EE7A1E79438400C46937 /* NetWorkTool.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		5B57D3F3487E82BAD708E067 /* Frameworks */ = {
@@ -610,24 +633,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3298EE741E793F7700C46937 /* Song.swift in Sources */,
 				3298EE6C1E79365100C46937 /* UILabel+Extension.swift in Sources */,
 				3298EE681E79365100C46937 /* UIBUtton+Extension.swift in Sources */,
 				3298EE4F1E7933B300C46937 /* MainTabBarViewController.swift in Sources */,
 				3298EE4B1E79335200C46937 /* DiscoverViewController.swift in Sources */,
 				3298EE061E79286900C46937 /* ViewController.swift in Sources */,
 				3298EE651E79365100C46937 /* CALayer+Extension.swift in Sources */,
+				3298EE781E79416E00C46937 /* MusicCollectionCell.swift in Sources */,
 				3298EE661E79365100C46937 /* NSObject+Extension.swift in Sources */,
 				3298EE6E1E79365100C46937 /* UIViewController+Extension.swift in Sources */,
 				3298EE701E7936D200C46937 /* Constant.swift in Sources */,
 				3298EE691E79365100C46937 /* UIColor+Extension.swift in Sources */,
+				3298EE7B1E79438400C46937 /* NetWorkTool.swift in Sources */,
 				3298EE641E79365100C46937 /* Array+Extension.swift in Sources */,
 				3298EE531E7933EA00C46937 /* MineViewController.swift in Sources */,
+				3298EE761E793F9200C46937 /* SongDetail.swift in Sources */,
 				3298EE6B1E79365100C46937 /* UIImageView+Extension.swift in Sources */,
 				3298EE6D1E79365100C46937 /* UIView+Extension.swift in Sources */,
 				3298EE551E7933FF00C46937 /* MusicViewController.swift in Sources */,
 				3298EE511E7933D600C46937 /* BaseNavigationViewController.swift in Sources */,
 				3298EE6A1E79365100C46937 /* UIImage+Extension.swift in Sources */,
 				3298EE041E79286900C46937 /* AppDelegate.swift in Sources */,
+				3298EE721E793F6E00C46937 /* SongGroup.swift in Sources */,
 				3298EE4D1E79336000C46937 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
