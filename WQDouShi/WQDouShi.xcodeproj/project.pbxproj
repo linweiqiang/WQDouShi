@@ -14,6 +14,23 @@
 		3298EE0E1E79286900C46937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3298EE0C1E79286900C46937 /* LaunchScreen.storyboard */; };
 		3298EE191E79286900C46937 /* WQDouShiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE181E79286900C46937 /* WQDouShiTests.swift */; };
 		3298EE241E79286900C46937 /* WQDouShiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE231E79286900C46937 /* WQDouShiUITests.swift */; };
+		3298EE4B1E79335200C46937 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE4A1E79335200C46937 /* DiscoverViewController.swift */; };
+		3298EE4D1E79336000C46937 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE4C1E79336000C46937 /* HomeViewController.swift */; };
+		3298EE4F1E7933B300C46937 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE4E1E7933B300C46937 /* MainTabBarViewController.swift */; };
+		3298EE511E7933D600C46937 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE501E7933D600C46937 /* BaseNavigationViewController.swift */; };
+		3298EE531E7933EA00C46937 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE521E7933EA00C46937 /* MineViewController.swift */; };
+		3298EE551E7933FF00C46937 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE541E7933FF00C46937 /* MusicViewController.swift */; };
+		3298EE641E79365100C46937 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE581E79365100C46937 /* Array+Extension.swift */; };
+		3298EE651E79365100C46937 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE591E79365100C46937 /* CALayer+Extension.swift */; };
+		3298EE661E79365100C46937 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE5A1E79365100C46937 /* NSObject+Extension.swift */; };
+		3298EE681E79365100C46937 /* UIBUtton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE5C1E79365100C46937 /* UIBUtton+Extension.swift */; };
+		3298EE691E79365100C46937 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE5D1E79365100C46937 /* UIColor+Extension.swift */; };
+		3298EE6A1E79365100C46937 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE5E1E79365100C46937 /* UIImage+Extension.swift */; };
+		3298EE6B1E79365100C46937 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE5F1E79365100C46937 /* UIImageView+Extension.swift */; };
+		3298EE6C1E79365100C46937 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE601E79365100C46937 /* UILabel+Extension.swift */; };
+		3298EE6D1E79365100C46937 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE611E79365100C46937 /* UIView+Extension.swift */; };
+		3298EE6E1E79365100C46937 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE621E79365100C46937 /* UIViewController+Extension.swift */; };
+		3298EE701E7936D200C46937 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE6F1E7936D200C46937 /* Constant.swift */; };
 		9E252F754B285944DEAF8532 /* Pods_WQDouShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +66,23 @@
 		3298EE1F1E79286900C46937 /* WQDouShiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQDouShiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3298EE231E79286900C46937 /* WQDouShiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQDouShiUITests.swift; sourceTree = "<group>"; };
 		3298EE251E79286900C46937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3298EE4A1E79335200C46937 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		3298EE4C1E79336000C46937 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3298EE4E1E7933B300C46937 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		3298EE501E7933D600C46937 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		3298EE521E7933EA00C46937 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		3298EE541E7933FF00C46937 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		3298EE581E79365100C46937 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		3298EE591E79365100C46937 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		3298EE5A1E79365100C46937 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		3298EE5C1E79365100C46937 /* UIBUtton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBUtton+Extension.swift"; sourceTree = "<group>"; };
+		3298EE5D1E79365100C46937 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3298EE5E1E79365100C46937 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		3298EE5F1E79365100C46937 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		3298EE601E79365100C46937 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		3298EE611E79365100C46937 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3298EE621E79365100C46937 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		3298EE6F1E7936D200C46937 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQDouShi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01288642126705866D75930 /* Pods-WQDouShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQDouShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQDouShi/Pods-WQDouShi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +147,8 @@
 		3298EE021E79286900C46937 /* WQDouShi */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE561E79365100C46937 /* Extesion */,
+				3298EE631E79365100C46937 /* Third Party */,
 				3298EE311E7930F800C46937 /* Discover */,
 				3298EE361E7930F800C46937 /* Home */,
 				3298EE3B1E7930F800C46937 /* Main */,
@@ -160,6 +196,7 @@
 		3298EE321E7930F800C46937 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE4A1E79335200C46937 /* DiscoverViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +236,7 @@
 		3298EE371E7930F800C46937 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE4C1E79336000C46937 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -238,6 +276,8 @@
 		3298EE3C1E7930F800C46937 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE4E1E7933B300C46937 /* MainTabBarViewController.swift */,
+				3298EE501E7933D600C46937 /* BaseNavigationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -277,6 +317,7 @@
 		3298EE411E7930F800C46937 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE521E7933EA00C46937 /* MineViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -316,6 +357,7 @@
 		3298EE461E7930F800C46937 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3298EE541E7933FF00C46937 /* MusicViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -339,6 +381,39 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3298EE561E79365100C46937 /* Extesion */ = {
+			isa = PBXGroup;
+			children = (
+				3298EE6F1E7936D200C46937 /* Constant.swift */,
+				3298EE571E79365100C46937 /* Category(扩展) */,
+			);
+			path = Extesion;
+			sourceTree = "<group>";
+		};
+		3298EE571E79365100C46937 /* Category(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				3298EE581E79365100C46937 /* Array+Extension.swift */,
+				3298EE591E79365100C46937 /* CALayer+Extension.swift */,
+				3298EE5A1E79365100C46937 /* NSObject+Extension.swift */,
+				3298EE5C1E79365100C46937 /* UIBUtton+Extension.swift */,
+				3298EE5D1E79365100C46937 /* UIColor+Extension.swift */,
+				3298EE5E1E79365100C46937 /* UIImage+Extension.swift */,
+				3298EE5F1E79365100C46937 /* UIImageView+Extension.swift */,
+				3298EE601E79365100C46937 /* UILabel+Extension.swift */,
+				3298EE611E79365100C46937 /* UIView+Extension.swift */,
+				3298EE621E79365100C46937 /* UIViewController+Extension.swift */,
+			);
+			path = "Category(扩展)";
+			sourceTree = "<group>";
+		};
+		3298EE631E79365100C46937 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third Party";
 			sourceTree = "<group>";
 		};
 		5B57D3F3487E82BAD708E067 /* Frameworks */ = {
@@ -535,8 +610,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3298EE6C1E79365100C46937 /* UILabel+Extension.swift in Sources */,
+				3298EE681E79365100C46937 /* UIBUtton+Extension.swift in Sources */,
+				3298EE4F1E7933B300C46937 /* MainTabBarViewController.swift in Sources */,
+				3298EE4B1E79335200C46937 /* DiscoverViewController.swift in Sources */,
 				3298EE061E79286900C46937 /* ViewController.swift in Sources */,
+				3298EE651E79365100C46937 /* CALayer+Extension.swift in Sources */,
+				3298EE661E79365100C46937 /* NSObject+Extension.swift in Sources */,
+				3298EE6E1E79365100C46937 /* UIViewController+Extension.swift in Sources */,
+				3298EE701E7936D200C46937 /* Constant.swift in Sources */,
+				3298EE691E79365100C46937 /* UIColor+Extension.swift in Sources */,
+				3298EE641E79365100C46937 /* Array+Extension.swift in Sources */,
+				3298EE531E7933EA00C46937 /* MineViewController.swift in Sources */,
+				3298EE6B1E79365100C46937 /* UIImageView+Extension.swift in Sources */,
+				3298EE6D1E79365100C46937 /* UIView+Extension.swift in Sources */,
+				3298EE551E7933FF00C46937 /* MusicViewController.swift in Sources */,
+				3298EE511E7933D600C46937 /* BaseNavigationViewController.swift in Sources */,
+				3298EE6A1E79365100C46937 /* UIImage+Extension.swift in Sources */,
 				3298EE041E79286900C46937 /* AppDelegate.swift in Sources */,
+				3298EE4D1E79336000C46937 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
