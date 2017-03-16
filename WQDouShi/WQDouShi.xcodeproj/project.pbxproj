@@ -36,6 +36,21 @@
 		3298EE761E793F9200C46937 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE751E793F9200C46937 /* SongDetail.swift */; };
 		3298EE781E79416E00C46937 /* MusicCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE771E79416E00C46937 /* MusicCollectionCell.swift */; };
 		3298EE7B1E79438400C46937 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EE7A1E79438400C46937 /* NetWorkTool.swift */; };
+		3298EECC1E7A6A8700C46937 /* MusicListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EECB1E7A6A8700C46937 /* MusicListTableViewController.swift */; };
+		3298EECE1E7A6BC100C46937 /* MusicListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3298EECD1E7A6BC100C46937 /* MusicListTableViewCell.swift */; };
+		3298EEEC1E7A6E6200C46937 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EED11E7A6E6200C46937 /* ASValuePopUpView.m */; };
+		3298EEED1E7A6E6200C46937 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EED31E7A6E6200C46937 /* ASValueTrackingSlider.m */; };
+		3298EEEE1E7A6E6200C46937 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EED61E7A6E6200C46937 /* UIImageView+ZFCache.m */; };
+		3298EEEF1E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EED81E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.m */; };
+		3298EEF01E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEDA1E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.m */; };
+		3298EEF11E7A6E6200C46937 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEDC1E7A6E6200C46937 /* UIView+CustomControlView.m */; };
+		3298EEF21E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEDE1E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.m */; };
+		3298EEF31E7A6E6200C46937 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE01E7A6E6200C46937 /* MMMaterialDesignSpinner.m */; };
+		3298EEF41E7A6E6200C46937 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE21E7A6E6200C46937 /* ZFBrightnessView.m */; };
+		3298EEF51E7A6E6200C46937 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3298EEE31E7A6E6200C46937 /* ZFPlayer.bundle */; };
+		3298EEF61E7A6E6200C46937 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE61E7A6E6200C46937 /* ZFPlayerControlView.m */; };
+		3298EEF71E7A6E6200C46937 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE91E7A6E6200C46937 /* ZFPlayerModel.m */; };
+		3298EEF81E7A6E6200C46937 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEEB1E7A6E6200C46937 /* ZFPlayerView.m */; };
 		9E252F754B285944DEAF8532 /* Pods_WQDouShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +108,35 @@
 		3298EE751E793F9200C46937 /* SongDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
 		3298EE771E79416E00C46937 /* MusicCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCollectionCell.swift; sourceTree = "<group>"; };
 		3298EE7A1E79438400C46937 /* NetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
+		3298EECB1E7A6A8700C46937 /* MusicListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListTableViewController.swift; sourceTree = "<group>"; };
+		3298EECD1E7A6BC100C46937 /* MusicListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListTableViewCell.swift; sourceTree = "<group>"; };
+		3298EED01E7A6E6200C46937 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		3298EED11E7A6E6200C46937 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		3298EED21E7A6E6200C46937 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		3298EED31E7A6E6200C46937 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		3298EED51E7A6E6200C46937 /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		3298EED61E7A6E6200C46937 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		3298EED71E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3298EED81E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3298EED91E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3298EEDA1E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3298EEDB1E7A6E6200C46937 /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
+		3298EEDC1E7A6E6200C46937 /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
+		3298EEDD1E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3298EEDE1E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3298EEDF1E7A6E6200C46937 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		3298EEE01E7A6E6200C46937 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		3298EEE11E7A6E6200C46937 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		3298EEE21E7A6E6200C46937 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		3298EEE31E7A6E6200C46937 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		3298EEE41E7A6E6200C46937 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		3298EEE51E7A6E6200C46937 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		3298EEE61E7A6E6200C46937 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		3298EEE71E7A6E6200C46937 /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		3298EEE81E7A6E6200C46937 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		3298EEE91E7A6E6200C46937 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		3298EEEA1E7A6E6200C46937 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		3298EEEB1E7A6E6200C46937 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
 		6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQDouShi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01288642126705866D75930 /* Pods-WQDouShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQDouShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQDouShi/Pods-WQDouShi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -369,6 +413,7 @@
 			isa = PBXGroup;
 			children = (
 				3298EE541E7933FF00C46937 /* MusicViewController.swift */,
+				3298EECB1E7A6A8700C46937 /* MusicListTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -387,6 +432,7 @@
 			isa = PBXGroup;
 			children = (
 				3298EE771E79416E00C46937 /* MusicCollectionCell.swift */,
+				3298EECD1E7A6BC100C46937 /* MusicListTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -427,6 +473,7 @@
 		3298EE631E79365100C46937 /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				3298EECF1E7A6E6200C46937 /* ZFPlayer */,
 			);
 			path = "Third Party";
 			sourceTree = "<group>";
@@ -437,6 +484,48 @@
 				3298EE7A1E79438400C46937 /* NetWorkTool.swift */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		3298EECF1E7A6E6200C46937 /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3298EED01E7A6E6200C46937 /* ASValuePopUpView.h */,
+				3298EED11E7A6E6200C46937 /* ASValuePopUpView.m */,
+				3298EED21E7A6E6200C46937 /* ASValueTrackingSlider.h */,
+				3298EED31E7A6E6200C46937 /* ASValueTrackingSlider.m */,
+				3298EED41E7A6E6200C46937 /* Category */,
+				3298EEDF1E7A6E6200C46937 /* MMMaterialDesignSpinner.h */,
+				3298EEE01E7A6E6200C46937 /* MMMaterialDesignSpinner.m */,
+				3298EEE11E7A6E6200C46937 /* ZFBrightnessView.h */,
+				3298EEE21E7A6E6200C46937 /* ZFBrightnessView.m */,
+				3298EEE31E7A6E6200C46937 /* ZFPlayer.bundle */,
+				3298EEE41E7A6E6200C46937 /* ZFPlayer.h */,
+				3298EEE51E7A6E6200C46937 /* ZFPlayerControlView.h */,
+				3298EEE61E7A6E6200C46937 /* ZFPlayerControlView.m */,
+				3298EEE71E7A6E6200C46937 /* ZFPlayerControlViewDelegate.h */,
+				3298EEE81E7A6E6200C46937 /* ZFPlayerModel.h */,
+				3298EEE91E7A6E6200C46937 /* ZFPlayerModel.m */,
+				3298EEEA1E7A6E6200C46937 /* ZFPlayerView.h */,
+				3298EEEB1E7A6E6200C46937 /* ZFPlayerView.m */,
+			);
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		3298EED41E7A6E6200C46937 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3298EED51E7A6E6200C46937 /* UIImageView+ZFCache.h */,
+				3298EED61E7A6E6200C46937 /* UIImageView+ZFCache.m */,
+				3298EED71E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.h */,
+				3298EED81E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.m */,
+				3298EED91E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.h */,
+				3298EEDA1E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.m */,
+				3298EEDB1E7A6E6200C46937 /* UIView+CustomControlView.h */,
+				3298EEDC1E7A6E6200C46937 /* UIView+CustomControlView.m */,
+				3298EEDD1E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.h */,
+				3298EEDE1E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		5B57D3F3487E82BAD708E067 /* Frameworks */ = {
@@ -558,6 +647,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3298EEF51E7A6E6200C46937 /* ZFPlayer.bundle in Resources */,
 				3298EE0E1E79286900C46937 /* LaunchScreen.storyboard in Resources */,
 				3298EE0B1E79286900C46937 /* Assets.xcassets in Resources */,
 				3298EE091E79286900C46937 /* Main.storyboard in Resources */,
@@ -637,22 +727,36 @@
 				3298EE6C1E79365100C46937 /* UILabel+Extension.swift in Sources */,
 				3298EE681E79365100C46937 /* UIBUtton+Extension.swift in Sources */,
 				3298EE4F1E7933B300C46937 /* MainTabBarViewController.swift in Sources */,
+				3298EEEF1E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.m in Sources */,
+				3298EEF71E7A6E6200C46937 /* ZFPlayerModel.m in Sources */,
 				3298EE4B1E79335200C46937 /* DiscoverViewController.swift in Sources */,
 				3298EE061E79286900C46937 /* ViewController.swift in Sources */,
 				3298EE651E79365100C46937 /* CALayer+Extension.swift in Sources */,
+				3298EEF01E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				3298EECE1E7A6BC100C46937 /* MusicListTableViewCell.swift in Sources */,
+				3298EEEC1E7A6E6200C46937 /* ASValuePopUpView.m in Sources */,
 				3298EE781E79416E00C46937 /* MusicCollectionCell.swift in Sources */,
+				3298EEF31E7A6E6200C46937 /* MMMaterialDesignSpinner.m in Sources */,
 				3298EE661E79365100C46937 /* NSObject+Extension.swift in Sources */,
 				3298EE6E1E79365100C46937 /* UIViewController+Extension.swift in Sources */,
 				3298EE701E7936D200C46937 /* Constant.swift in Sources */,
+				3298EEEE1E7A6E6200C46937 /* UIImageView+ZFCache.m in Sources */,
+				3298EEF61E7A6E6200C46937 /* ZFPlayerControlView.m in Sources */,
+				3298EEF11E7A6E6200C46937 /* UIView+CustomControlView.m in Sources */,
 				3298EE691E79365100C46937 /* UIColor+Extension.swift in Sources */,
 				3298EE7B1E79438400C46937 /* NetWorkTool.swift in Sources */,
+				3298EECC1E7A6A8700C46937 /* MusicListTableViewController.swift in Sources */,
 				3298EE641E79365100C46937 /* Array+Extension.swift in Sources */,
+				3298EEED1E7A6E6200C46937 /* ASValueTrackingSlider.m in Sources */,
 				3298EE531E7933EA00C46937 /* MineViewController.swift in Sources */,
 				3298EE761E793F9200C46937 /* SongDetail.swift in Sources */,
+				3298EEF41E7A6E6200C46937 /* ZFBrightnessView.m in Sources */,
 				3298EE6B1E79365100C46937 /* UIImageView+Extension.swift in Sources */,
 				3298EE6D1E79365100C46937 /* UIView+Extension.swift in Sources */,
 				3298EE551E7933FF00C46937 /* MusicViewController.swift in Sources */,
 				3298EE511E7933D600C46937 /* BaseNavigationViewController.swift in Sources */,
+				3298EEF21E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				3298EEF81E7A6E6200C46937 /* ZFPlayerView.m in Sources */,
 				3298EE6A1E79365100C46937 /* UIImage+Extension.swift in Sources */,
 				3298EE041E79286900C46937 /* AppDelegate.swift in Sources */,
 				3298EE721E793F6E00C46937 /* SongGroup.swift in Sources */,

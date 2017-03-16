@@ -79,4 +79,9 @@ extension MusicViewController{
         cell.model = dataSource[indexPath.item]
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        show(MusicListTableViewController(songGroup: self.dataSource[indexPath.item]), sender: nil)
+    }
 }
