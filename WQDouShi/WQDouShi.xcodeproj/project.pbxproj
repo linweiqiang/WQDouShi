@@ -51,6 +51,11 @@
 		3298EEF61E7A6E6200C46937 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE61E7A6E6200C46937 /* ZFPlayerControlView.m */; };
 		3298EEF71E7A6E6200C46937 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE91E7A6E6200C46937 /* ZFPlayerModel.m */; };
 		3298EEF81E7A6E6200C46937 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEEB1E7A6E6200C46937 /* ZFPlayerView.m */; };
+		32DAE1D91E7B790F002441C7 /* PlayMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1D81E7B790F002441C7 /* PlayMusicViewController.swift */; };
+		32DAE1DB1E7B8A84002441C7 /* PlayTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1DA1E7B8A84002441C7 /* PlayTopView.swift */; };
+		32DAE1DD1E7B8A95002441C7 /* PlayMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1DC1E7B8A95002441C7 /* PlayMiddleView.swift */; };
+		32DAE1DF1E7B8AA7002441C7 /* PlayBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1DE1E7B8AA7002441C7 /* PlayBottomView.swift */; };
+		32DAE1E11E7BC258002441C7 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1E01E7BC258002441C7 /* MusicModel.swift */; };
 		9E252F754B285944DEAF8532 /* Pods_WQDouShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */; };
 /* End PBXBuildFile section */
 
@@ -137,6 +142,11 @@
 		3298EEE91E7A6E6200C46937 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
 		3298EEEA1E7A6E6200C46937 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
 		3298EEEB1E7A6E6200C46937 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		32DAE1D81E7B790F002441C7 /* PlayMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMusicViewController.swift; sourceTree = "<group>"; };
+		32DAE1DA1E7B8A84002441C7 /* PlayTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayTopView.swift; sourceTree = "<group>"; };
+		32DAE1DC1E7B8A95002441C7 /* PlayMiddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMiddleView.swift; sourceTree = "<group>"; };
+		32DAE1DE1E7B8AA7002441C7 /* PlayBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayBottomView.swift; sourceTree = "<group>"; };
+		32DAE1E01E7BC258002441C7 /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
 		6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQDouShi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01288642126705866D75930 /* Pods-WQDouShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQDouShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQDouShi/Pods-WQDouShi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -414,6 +424,7 @@
 			children = (
 				3298EE541E7933FF00C46937 /* MusicViewController.swift */,
 				3298EECB1E7A6A8700C46937 /* MusicListTableViewController.swift */,
+				32DAE1D81E7B790F002441C7 /* PlayMusicViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -424,6 +435,7 @@
 				3298EE711E793F6E00C46937 /* SongGroup.swift */,
 				3298EE731E793F7700C46937 /* Song.swift */,
 				3298EE751E793F9200C46937 /* SongDetail.swift */,
+				32DAE1E01E7BC258002441C7 /* MusicModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -433,6 +445,9 @@
 			children = (
 				3298EE771E79416E00C46937 /* MusicCollectionCell.swift */,
 				3298EECD1E7A6BC100C46937 /* MusicListTableViewCell.swift */,
+				32DAE1DA1E7B8A84002441C7 /* PlayTopView.swift */,
+				32DAE1DC1E7B8A95002441C7 /* PlayMiddleView.swift */,
+				32DAE1DE1E7B8AA7002441C7 /* PlayBottomView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -730,9 +745,11 @@
 				3298EEEF1E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				3298EEF71E7A6E6200C46937 /* ZFPlayerModel.m in Sources */,
 				3298EE4B1E79335200C46937 /* DiscoverViewController.swift in Sources */,
+				32DAE1DD1E7B8A95002441C7 /* PlayMiddleView.swift in Sources */,
 				3298EE061E79286900C46937 /* ViewController.swift in Sources */,
 				3298EE651E79365100C46937 /* CALayer+Extension.swift in Sources */,
 				3298EEF01E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				32DAE1D91E7B790F002441C7 /* PlayMusicViewController.swift in Sources */,
 				3298EECE1E7A6BC100C46937 /* MusicListTableViewCell.swift in Sources */,
 				3298EEEC1E7A6E6200C46937 /* ASValuePopUpView.m in Sources */,
 				3298EE781E79416E00C46937 /* MusicCollectionCell.swift in Sources */,
@@ -744,16 +761,19 @@
 				3298EEF61E7A6E6200C46937 /* ZFPlayerControlView.m in Sources */,
 				3298EEF11E7A6E6200C46937 /* UIView+CustomControlView.m in Sources */,
 				3298EE691E79365100C46937 /* UIColor+Extension.swift in Sources */,
+				32DAE1E11E7BC258002441C7 /* MusicModel.swift in Sources */,
 				3298EE7B1E79438400C46937 /* NetWorkTool.swift in Sources */,
 				3298EECC1E7A6A8700C46937 /* MusicListTableViewController.swift in Sources */,
 				3298EE641E79365100C46937 /* Array+Extension.swift in Sources */,
 				3298EEED1E7A6E6200C46937 /* ASValueTrackingSlider.m in Sources */,
 				3298EE531E7933EA00C46937 /* MineViewController.swift in Sources */,
 				3298EE761E793F9200C46937 /* SongDetail.swift in Sources */,
+				32DAE1DF1E7B8AA7002441C7 /* PlayBottomView.swift in Sources */,
 				3298EEF41E7A6E6200C46937 /* ZFBrightnessView.m in Sources */,
 				3298EE6B1E79365100C46937 /* UIImageView+Extension.swift in Sources */,
 				3298EE6D1E79365100C46937 /* UIView+Extension.swift in Sources */,
 				3298EE551E7933FF00C46937 /* MusicViewController.swift in Sources */,
+				32DAE1DB1E7B8A84002441C7 /* PlayTopView.swift in Sources */,
 				3298EE511E7933D600C46937 /* BaseNavigationViewController.swift in Sources */,
 				3298EEF21E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.m in Sources */,
 				3298EEF81E7A6E6200C46937 /* ZFPlayerView.m in Sources */,

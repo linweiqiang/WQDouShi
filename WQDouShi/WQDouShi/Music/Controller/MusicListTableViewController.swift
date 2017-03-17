@@ -18,8 +18,9 @@ class MusicListTableViewController: UITableViewController {
         self.tableView.rowHeight = 90
         setUI()
         loadData()
-        
     }
+    
+    
     init(songGroup: SongGroup) {
         super.init(style: .plain)
         self.songGroup = songGroup
@@ -92,5 +93,13 @@ extension MusicListTableViewController{
         let cell = MusicListTableViewCell.cellWithTableView(table: tableView)
         cell.model = self.dataArr[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.hidesBottomBarWhenPushed = true
+        let viewController = PlayMusicViewController()
+        viewController.setSongIdArray(musicArr: dataArr, currentIndex: indexPath.row)
+        self.navigationController?.pushViewController(viewController, animated: true)
+        self.hidesBottomBarWhenPushed = true
     }
 }

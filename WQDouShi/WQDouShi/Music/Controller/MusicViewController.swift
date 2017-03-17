@@ -82,6 +82,10 @@ extension MusicViewController{
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        show(MusicListTableViewController(songGroup: self.dataSource[indexPath.item]), sender: nil)
+//        show(MusicListTableViewController(songGroup: self.dataSource[indexPath.item]), sender: nil)
+        self.hidesBottomBarWhenPushed = true
+        let Controller = MusicListTableViewController(songGroup: self.dataSource[indexPath.item])
+        self.navigationController?.pushViewController(Controller, animated: true)
+        self.hidesBottomBarWhenPushed = false
     }
 }
