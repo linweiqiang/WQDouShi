@@ -99,7 +99,8 @@ extension MusicListTableViewController{
         self.hidesBottomBarWhenPushed = true
         let viewController = PlayMusicViewController()
         viewController.setSongIdArray(musicArr: dataArr, currentIndex: indexPath.row)
-        self.navigationController?.pushViewController(viewController, animated: true)
+//        self.navigationController?.pushViewController(viewController, animated: true)
+        show(viewController, sender: nil)
         self.hidesBottomBarWhenPushed = true
     }
 }
