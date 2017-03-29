@@ -12,6 +12,7 @@
 		3223290B1E8A55FD00F78DB1 /* ZFPlayerControlViewDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE71E7A6E6200C46937 /* ZFPlayerControlViewDelegate.h */; };
 		3223290C1E8A55FD00F78DB1 /* ZFPlayerModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE81E7A6E6200C46937 /* ZFPlayerModel.h */; };
 		3223290D1E8A55FD00F78DB1 /* ZFPlayerView.h in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEEA1E7A6E6200C46937 /* ZFPlayerView.h */; };
+		3262FA491E8B904700C4F585 /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262FA481E8B904700C4F585 /* MineHeaderView.swift */; };
 		329239EB1E821DF40037D638 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 329239EA1E821DF40037D638 /* videoData.json */; };
 		329239F01E821FDF0037D638 /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329239EF1E821FDF0037D638 /* DiscoverTableViewCell.swift */; };
 		329239F21E8220350037D638 /* VideoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329239F11E8220350037D638 /* VideoListModel.swift */; };
@@ -89,6 +90,7 @@
 /* Begin PBXFileReference section */
 		1817CF5EA495A3A0ED62E086 /* Pods-WQDouShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQDouShi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQDouShi/Pods-WQDouShi.debug.xcconfig"; sourceTree = "<group>"; };
 		3223290F1E8A58EF00F78DB1 /* WQDouShi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WQDouShi-Bridging-Header.h"; sourceTree = "<group>"; };
+		3262FA481E8B904700C4F585 /* MineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
 		329239EA1E821DF40037D638 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videoData.json; path = WQDouShi/videoData.json; sourceTree = SOURCE_ROOT; };
 		329239EF1E821FDF0037D638 /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
 		329239F11E8220350037D638 /* VideoListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListModel.swift; sourceTree = "<group>"; };
@@ -227,7 +229,6 @@
 		3298EE021E79286900C46937 /* WQDouShi */ = {
 			isa = PBXGroup;
 			children = (
-				329239EA1E821DF40037D638 /* videoData.json */,
 				3298EE791E79436900C46937 /* Tool */,
 				3298EE561E79365100C46937 /* Extesion */,
 				3298EE631E79365100C46937 /* Third Party */,
@@ -241,6 +242,7 @@
 				3298EE071E79286900C46937 /* Main.storyboard */,
 				3298EE0A1E79286900C46937 /* Assets.xcassets */,
 				3298EE0C1E79286900C46937 /* LaunchScreen.storyboard */,
+				329239EA1E821DF40037D638 /* videoData.json */,
 				3298EE0F1E79286900C46937 /* Info.plist */,
 				3223290F1E8A58EF00F78DB1 /* WQDouShi-Bridging-Header.h */,
 			);
@@ -418,6 +420,7 @@
 		3298EE431E7930F800C46937 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3262FA481E8B904700C4F585 /* MineHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -797,6 +800,7 @@
 				3298EE701E7936D200C46937 /* Constant.swift in Sources */,
 				3298EEEE1E7A6E6200C46937 /* UIImageView+ZFCache.m in Sources */,
 				3298EEF61E7A6E6200C46937 /* ZFPlayerControlView.m in Sources */,
+				3262FA491E8B904700C4F585 /* MineHeaderView.swift in Sources */,
 				3298EEF11E7A6E6200C46937 /* UIView+CustomControlView.m in Sources */,
 				3298EE691E79365100C46937 /* UIColor+Extension.swift in Sources */,
 				32DAE1E11E7BC258002441C7 /* MusicModel.swift in Sources */,
