@@ -7,11 +7,11 @@
 //
 
 import UIKit
-import AVFoundation
+import Jukebox
 
 private var currentMusicContext = 0
 
-class PlayMusicViewController: UIViewController,PlayTopViewDelegate {
+class PlayMusicViewController: UIViewController,PlayTopViewDelegate{
     //背景图片
     var backgroudView = UIImageView()
     var topView = PlayTopView()
@@ -20,12 +20,10 @@ class PlayMusicViewController: UIViewController,PlayTopViewDelegate {
     dynamic var currentMusic: MusicModel?
     
     var playingIndex: Int = 0
-    var playingItem: AVPlayerItem?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpUI()
-        setUpKVO()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -41,12 +39,6 @@ class PlayMusicViewController: UIViewController,PlayTopViewDelegate {
         self.musicArr = musicArr
         self.playingIndex = currentIndex
         loadSongDetail()
-    }
-    
-    deinit {
-        self.removeObserver(self, forKeyPath: "currentMusic")
-        playingItem?.removeObserver(self, forKeyPath: "loadedTimeRanges")
-        playingItem?.removeObserver(self, forKeyPath: "status")
     }
     
 }
@@ -76,36 +68,7 @@ extension PlayMusicViewController
         
     }
 }
-//MARK:  KVO
-extension PlayMusicViewController
-{
-    func setUpKVO() {
-        self.addObserver(self, forKeyPath: "currentMusic", options: [.new, .old], context: &currentMusicContext)
-        self.playingItem?.addObserver(self, forKeyPath: "loadedTimeRanges", options: .new, context: nil)
-        self.playingItem?.addObserver(self, forKeyPath: "status", options: .new, context: nil)
-    }
-    
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        
-        if context == &currentMusicContext{
-            let new: MusicModel = change![NSKeyValueChangeKey.newKey] as! MusicModel
-            self.playingItem = PlayMusicTool.playMusicWithLink(link: new.songLink)
-            NotificationCenter.default.addObserver(self, selector: #selector(PlayMusicTool.playMusicWithLink(link:)), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: playingItem)
-        }
-        
-        if keyPath == "loadedTimeRanges"{
-            
-        }else if keyPath == "status"{
-            if playingItem?.status == AVPlayerItemStatus.readyToPlay{
-                self.playingItem = PlayMusicTool.playMusicWithLink(link: currentMusic!.songLink)
-            }else if playingItem?.status == .unknown{
-                //暂停播放
-            }else{
-                self.showHint(hint: "加载异常")
-            }
-        }
-    }
-}
+
 //MARK:Data
 extension PlayMusicViewController
 {
@@ -140,9 +103,12 @@ extension PlayMusicViewController{
         backgroudView.kf.setImage(with: URL(string: (currentMusic?.songPicBig)!), placeholder: #imageLiteral(resourceName: "dzq"))
         
         topView.music = currentMusic
-        self.playingItem = PlayMusicTool.playMusicWithLink(link: currentMusic!.songLink)
         
-        NotificationCenter.default.addObserver(self, selector: #selector(PlayMusicTool.playMusicWithLink(link:)), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: self.playingItem)
+       let jukebox = Jukebox(delegate: self as? JukeboxDelegate, items: [
+            JukeboxItem(URL: NSURL(string: currentMusic!.songLink)! as URL)
+            ])
+        jukebox?.play()
+        
     }
 }
 
@@ -153,6 +119,6 @@ extension PlayMusicViewController
 //MARK:   delegate
 extension PlayMusicViewController{
     func backBtnClick() {
-     let _ = navigationController?.popViewController(animated: true)
+     navigationController?.popViewController(animated: false)
     }
 }

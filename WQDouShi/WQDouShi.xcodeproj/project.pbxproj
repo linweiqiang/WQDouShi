@@ -71,7 +71,6 @@
 		32DAE1DD1E7B8A95002441C7 /* PlayMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1DC1E7B8A95002441C7 /* PlayMiddleView.swift */; };
 		32DAE1DF1E7B8AA7002441C7 /* PlayBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1DE1E7B8AA7002441C7 /* PlayBottomView.swift */; };
 		32DAE1E11E7BC258002441C7 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1E01E7BC258002441C7 /* MusicModel.swift */; };
-		32DAE1E41E7F7546002441C7 /* PlayMusicTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1E31E7F7546002441C7 /* PlayMusicTool.swift */; };
 		32F068911E8DFAF4009CEBF3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688B1E8DFAF4009CEBF3 /* IJKMediaFramework.framework */; };
 		32F068921E8DFAF4009CEBF3 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688C1E8DFAF4009CEBF3 /* libbz2.tbd */; };
 		32F068931E8DFAF4009CEBF3 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688D1E8DFAF4009CEBF3 /* libcrypto.a */; };
@@ -180,7 +179,6 @@
 		32DAE1DC1E7B8A95002441C7 /* PlayMiddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMiddleView.swift; sourceTree = "<group>"; };
 		32DAE1DE1E7B8AA7002441C7 /* PlayBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayBottomView.swift; sourceTree = "<group>"; };
 		32DAE1E01E7BC258002441C7 /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
-		32DAE1E31E7F7546002441C7 /* PlayMusicTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMusicTool.swift; sourceTree = "<group>"; };
 		32F0688B1E8DFAF4009CEBF3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		32F0688C1E8DFAF4009CEBF3 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
 		32F0688D1E8DFAF4009CEBF3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
@@ -468,7 +466,6 @@
 		3298EE451E7930F800C46937 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				32DAE1E21E7F7523002441C7 /* Tool */,
 				3298EE461E7930F800C46937 /* Controller */,
 				3298EE471E7930F800C46937 /* Model */,
 				3298EE481E7930F800C46937 /* View */,
@@ -600,14 +597,6 @@
 				3298EEDE1E7A6E6200C46937 /* UIViewController+ZFPlayerRotation.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		32DAE1E21E7F7523002441C7 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				32DAE1E31E7F7546002441C7 /* PlayMusicTool.swift */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		32F0688A1E8DFAF4009CEBF3 /* lib&IJKFW */ = {
@@ -863,7 +852,6 @@
 				3298EE531E7933EA00C46937 /* MineViewController.swift in Sources */,
 				3298EE761E793F9200C46937 /* SongDetail.swift in Sources */,
 				32DAE1DF1E7B8AA7002441C7 /* PlayBottomView.swift in Sources */,
-				32DAE1E41E7F7546002441C7 /* PlayMusicTool.swift in Sources */,
 				3298EEF41E7A6E6200C46937 /* ZFBrightnessView.m in Sources */,
 				3298EE6B1E79365100C46937 /* UIImageView+Extension.swift in Sources */,
 				3298EE6D1E79365100C46937 /* UIView+Extension.swift in Sources */,

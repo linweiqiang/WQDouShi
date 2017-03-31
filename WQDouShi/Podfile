@@ -29,5 +29,6 @@ target 'WQDouShi' do
     
     pod 'NAKPlaybackIndicatorView', '~> 0.0.3'
     
-  
+    pod 'Jukebox'
+    
 end

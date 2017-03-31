@@ -56,6 +56,6 @@ extension CreamTableViewController
         let playerVC = PlayerViewController()
         playerVC.creame = creame
         navigationController?.pushViewController(playerVC, animated: true)
-
+        self.hidesBottomBarWhenPushed = false
     }
 }
