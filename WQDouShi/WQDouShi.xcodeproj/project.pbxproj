@@ -12,6 +12,10 @@
 		3223290B1E8A55FD00F78DB1 /* ZFPlayerControlViewDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE71E7A6E6200C46937 /* ZFPlayerControlViewDelegate.h */; };
 		3223290C1E8A55FD00F78DB1 /* ZFPlayerModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEE81E7A6E6200C46937 /* ZFPlayerModel.h */; };
 		3223290D1E8A55FD00F78DB1 /* ZFPlayerView.h in Sources */ = {isa = PBXBuildFile; fileRef = 3298EEEA1E7A6E6200C46937 /* ZFPlayerView.h */; };
+		322F5DD41E8DF54F00485D41 /* CreamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F5DD31E8DF54F00485D41 /* CreamTableViewController.swift */; };
+		322F5DD91E8DF5BB00485D41 /* CreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F5DD81E8DF5BB00485D41 /* CreamModel.swift */; };
+		322F5DDB1E8DF5D500485D41 /* CreamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F5DDA1E8DF5D500485D41 /* CreamTableViewCell.swift */; };
+		322F5DDD1E8DF5F600485D41 /* CreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F5DDC1E8DF5F600485D41 /* CreamViewModel.swift */; };
 		3262FA491E8B904700C4F585 /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262FA481E8B904700C4F585 /* MineHeaderView.swift */; };
 		329239EB1E821DF40037D638 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 329239EA1E821DF40037D638 /* videoData.json */; };
 		329239F01E821FDF0037D638 /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329239EF1E821FDF0037D638 /* DiscoverTableViewCell.swift */; };
@@ -90,6 +94,10 @@
 /* Begin PBXFileReference section */
 		1817CF5EA495A3A0ED62E086 /* Pods-WQDouShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQDouShi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQDouShi/Pods-WQDouShi.debug.xcconfig"; sourceTree = "<group>"; };
 		3223290F1E8A58EF00F78DB1 /* WQDouShi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WQDouShi-Bridging-Header.h"; sourceTree = "<group>"; };
+		322F5DD31E8DF54F00485D41 /* CreamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamTableViewController.swift; sourceTree = "<group>"; };
+		322F5DD81E8DF5BB00485D41 /* CreamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamModel.swift; sourceTree = "<group>"; };
+		322F5DDA1E8DF5D500485D41 /* CreamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamTableViewCell.swift; sourceTree = "<group>"; };
+		322F5DDC1E8DF5F600485D41 /* CreamViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamViewModel.swift; sourceTree = "<group>"; };
 		3262FA481E8B904700C4F585 /* MineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
 		329239EA1E821DF40037D638 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videoData.json; path = WQDouShi/videoData.json; sourceTree = SOURCE_ROOT; };
 		329239EF1E821FDF0037D638 /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
@@ -204,6 +212,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		322F5DD51E8DF5A800485D41 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				322F5DDC1E8DF5F600485D41 /* CreamViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		322F5DD61E8DF5A800485D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				322F5DD81E8DF5BB00485D41 /* CreamModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		322F5DD71E8DF5A800485D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				322F5DDA1E8DF5D500485D41 /* CreamTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3298EDF71E79286900C46937 = {
 			isa = PBXGroup;
 			children = (
@@ -313,10 +345,10 @@
 		3298EE361E7930F800C46937 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				322F5DD51E8DF5A800485D41 /* ViewModel */,
+				322F5DD61E8DF5A800485D41 /* Model */,
+				322F5DD71E8DF5A800485D41 /* View */,
 				3298EE371E7930F800C46937 /* Controller */,
-				3298EE381E7930F800C46937 /* Model */,
-				3298EE391E7930F800C46937 /* View */,
-				3298EE3A1E7930F800C46937 /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -324,30 +356,10 @@
 		3298EE371E7930F800C46937 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				322F5DD31E8DF54F00485D41 /* CreamTableViewController.swift */,
 				3298EE4C1E79336000C46937 /* HomeViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		3298EE381E7930F800C46937 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3298EE391E7930F800C46937 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3298EE3A1E7930F800C46937 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		3298EE3B1E7930F800C46937 /* Main */ = {
@@ -772,6 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322F5DD41E8DF54F00485D41 /* CreamTableViewController.swift in Sources */,
 				322329091E8A55FD00F78DB1 /* ZFPlayer.h in Sources */,
 				3223290A1E8A55FD00F78DB1 /* ZFPlayerControlView.h in Sources */,
 				3223290B1E8A55FD00F78DB1 /* ZFPlayerControlViewDelegate.h in Sources */,
@@ -784,6 +797,7 @@
 				3298EEEF1E7A6E6200C46937 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				3298EEF71E7A6E6200C46937 /* ZFPlayerModel.m in Sources */,
 				329239F41E82205D0037D638 /* VideoModel.swift in Sources */,
+				322F5DD91E8DF5BB00485D41 /* CreamModel.swift in Sources */,
 				3298EE4B1E79335200C46937 /* DiscoverViewController.swift in Sources */,
 				32DAE1DD1E7B8A95002441C7 /* PlayMiddleView.swift in Sources */,
 				3298EE061E79286900C46937 /* ViewController.swift in Sources */,
@@ -791,6 +805,7 @@
 				3298EEF01E7A6E6200C46937 /* UITabBarController+ZFPlayerRotation.m in Sources */,
 				329239F01E821FDF0037D638 /* DiscoverTableViewCell.swift in Sources */,
 				32DAE1D91E7B790F002441C7 /* PlayMusicViewController.swift in Sources */,
+				322F5DDD1E8DF5F600485D41 /* CreamViewModel.swift in Sources */,
 				3298EECE1E7A6BC100C46937 /* MusicListTableViewCell.swift in Sources */,
 				3298EEEC1E7A6E6200C46937 /* ASValuePopUpView.m in Sources */,
 				3298EE781E79416E00C46937 /* MusicCollectionCell.swift in Sources */,
@@ -808,6 +823,7 @@
 				3298EECC1E7A6A8700C46937 /* MusicListTableViewController.swift in Sources */,
 				3298EE641E79365100C46937 /* Array+Extension.swift in Sources */,
 				3298EEED1E7A6E6200C46937 /* ASValueTrackingSlider.m in Sources */,
+				322F5DDB1E8DF5D500485D41 /* CreamTableViewCell.swift in Sources */,
 				3298EE531E7933EA00C46937 /* MineViewController.swift in Sources */,
 				3298EE761E793F9200C46937 /* SongDetail.swift in Sources */,
 				32DAE1DF1E7B8AA7002441C7 /* PlayBottomView.swift in Sources */,

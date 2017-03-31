@@ -13,7 +13,7 @@ class MainTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setUpNavRootViewControllers(vc: HomeViewController(), title: "首页", image: "home", selImage: "home")
+        setUpNavRootViewControllers(vc: CreamTableViewController(), title: "首页", image: "home", selImage: "home")
         
         setUpNavRootViewControllers(vc: MusicViewController(), title: "音乐", image: "songList_normal", selImage: "songList_highLighted")
         setUpNavRootViewControllers(vc: DiscoverViewController(), title: "发现", image: "find", selImage: "find")
