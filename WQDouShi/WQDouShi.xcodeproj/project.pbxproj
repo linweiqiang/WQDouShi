@@ -16,6 +16,7 @@
 		322F5DD91E8DF5BB00485D41 /* CreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F5DD81E8DF5BB00485D41 /* CreamModel.swift */; };
 		322F5DDB1E8DF5D500485D41 /* CreamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F5DDA1E8DF5D500485D41 /* CreamTableViewCell.swift */; };
 		322F5DDD1E8DF5F600485D41 /* CreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F5DDC1E8DF5F600485D41 /* CreamViewModel.swift */; };
+		3247060F1E8DFDD000672B2D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247060E1E8DFDD000672B2D /* PlayerViewController.swift */; };
 		3262FA491E8B904700C4F585 /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262FA481E8B904700C4F585 /* MineHeaderView.swift */; };
 		329239EB1E821DF40037D638 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 329239EA1E821DF40037D638 /* videoData.json */; };
 		329239F01E821FDF0037D638 /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329239EF1E821FDF0037D638 /* DiscoverTableViewCell.swift */; };
@@ -71,6 +72,12 @@
 		32DAE1DF1E7B8AA7002441C7 /* PlayBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1DE1E7B8AA7002441C7 /* PlayBottomView.swift */; };
 		32DAE1E11E7BC258002441C7 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1E01E7BC258002441C7 /* MusicModel.swift */; };
 		32DAE1E41E7F7546002441C7 /* PlayMusicTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DAE1E31E7F7546002441C7 /* PlayMusicTool.swift */; };
+		32F068911E8DFAF4009CEBF3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688B1E8DFAF4009CEBF3 /* IJKMediaFramework.framework */; };
+		32F068921E8DFAF4009CEBF3 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688C1E8DFAF4009CEBF3 /* libbz2.tbd */; };
+		32F068931E8DFAF4009CEBF3 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688D1E8DFAF4009CEBF3 /* libcrypto.a */; };
+		32F068941E8DFAF4009CEBF3 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688E1E8DFAF4009CEBF3 /* librtmp.a */; };
+		32F068951E8DFAF4009CEBF3 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F0688F1E8DFAF4009CEBF3 /* libssl.a */; };
+		32F068961E8DFAF4009CEBF3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F068901E8DFAF4009CEBF3 /* libz.tbd */; };
 		9E252F754B285944DEAF8532 /* Pods_WQDouShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +105,7 @@
 		322F5DD81E8DF5BB00485D41 /* CreamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamModel.swift; sourceTree = "<group>"; };
 		322F5DDA1E8DF5D500485D41 /* CreamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamTableViewCell.swift; sourceTree = "<group>"; };
 		322F5DDC1E8DF5F600485D41 /* CreamViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamViewModel.swift; sourceTree = "<group>"; };
+		3247060E1E8DFDD000672B2D /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		3262FA481E8B904700C4F585 /* MineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
 		329239EA1E821DF40037D638 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videoData.json; path = WQDouShi/videoData.json; sourceTree = SOURCE_ROOT; };
 		329239EF1E821FDF0037D638 /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
@@ -173,6 +181,12 @@
 		32DAE1DE1E7B8AA7002441C7 /* PlayBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayBottomView.swift; sourceTree = "<group>"; };
 		32DAE1E01E7BC258002441C7 /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
 		32DAE1E31E7F7546002441C7 /* PlayMusicTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMusicTool.swift; sourceTree = "<group>"; };
+		32F0688B1E8DFAF4009CEBF3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		32F0688C1E8DFAF4009CEBF3 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		32F0688D1E8DFAF4009CEBF3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		32F0688E1E8DFAF4009CEBF3 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		32F0688F1E8DFAF4009CEBF3 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		32F068901E8DFAF4009CEBF3 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
 		6F6D5D064547F518FD796F55 /* Pods_WQDouShi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQDouShi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01288642126705866D75930 /* Pods-WQDouShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQDouShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQDouShi/Pods-WQDouShi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,7 +196,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F068941E8DFAF4009CEBF3 /* librtmp.a in Frameworks */,
+				32F068921E8DFAF4009CEBF3 /* libbz2.tbd in Frameworks */,
+				32F068961E8DFAF4009CEBF3 /* libz.tbd in Frameworks */,
+				32F068951E8DFAF4009CEBF3 /* libssl.a in Frameworks */,
 				9E252F754B285944DEAF8532 /* Pods_WQDouShi.framework in Frameworks */,
+				32F068931E8DFAF4009CEBF3 /* libcrypto.a in Frameworks */,
+				32F068911E8DFAF4009CEBF3 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +378,7 @@
 			children = (
 				322F5DD31E8DF54F00485D41 /* CreamTableViewController.swift */,
 				3298EE4C1E79336000C46937 /* HomeViewController.swift */,
+				3247060E1E8DFDD000672B2D /* PlayerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -525,6 +546,7 @@
 		3298EE631E79365100C46937 /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				32F0688A1E8DFAF4009CEBF3 /* lib&IJKFW */,
 				3298EECF1E7A6E6200C46937 /* ZFPlayer */,
 			);
 			path = "Third Party";
@@ -586,6 +608,19 @@
 				32DAE1E31E7F7546002441C7 /* PlayMusicTool.swift */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		32F0688A1E8DFAF4009CEBF3 /* lib&IJKFW */ = {
+			isa = PBXGroup;
+			children = (
+				32F0688B1E8DFAF4009CEBF3 /* IJKMediaFramework.framework */,
+				32F0688C1E8DFAF4009CEBF3 /* libbz2.tbd */,
+				32F0688D1E8DFAF4009CEBF3 /* libcrypto.a */,
+				32F0688E1E8DFAF4009CEBF3 /* librtmp.a */,
+				32F0688F1E8DFAF4009CEBF3 /* libssl.a */,
+				32F068901E8DFAF4009CEBF3 /* libz.tbd */,
+			);
+			path = "lib&IJKFW";
 			sourceTree = "<group>";
 		};
 		5B57D3F3487E82BAD708E067 /* Frameworks */ = {
@@ -791,6 +826,7 @@
 				3223290C1E8A55FD00F78DB1 /* ZFPlayerModel.h in Sources */,
 				3223290D1E8A55FD00F78DB1 /* ZFPlayerView.h in Sources */,
 				3298EE741E793F7700C46937 /* Song.swift in Sources */,
+				3247060F1E8DFDD000672B2D /* PlayerViewController.swift in Sources */,
 				3298EE6C1E79365100C46937 /* UILabel+Extension.swift in Sources */,
 				3298EE681E79365100C46937 /* UIBUtton+Extension.swift in Sources */,
 				3298EE4F1E7933B300C46937 /* MainTabBarViewController.swift in Sources */,
@@ -994,8 +1030,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A7BGJVPH4B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+				);
 				INFOPLIST_FILE = WQDouShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yoke121.com.WQDouShi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yoke2/Downloads/DouShi_swift/WQDouShi/WQDouShi/WQDouShi-Bridging-Header.h";
@@ -1009,8 +1057,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A7BGJVPH4B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+				);
 				INFOPLIST_FILE = WQDouShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+					"$(PROJECT_DIR)/WQDouShi/Third\\ Party/lib&IJKFW",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yoke121.com.WQDouShi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yoke2/Downloads/DouShi_swift/WQDouShi/WQDouShi/WQDouShi-Bridging-Header.h";

@@ -101,6 +101,5 @@ extension MusicListTableViewController{
         viewController.setSongIdArray(musicArr: dataArr, currentIndex: indexPath.row)
 //        self.navigationController?.pushViewController(viewController, animated: true)
         show(viewController, sender: nil)
-        self.hidesBottomBarWhenPushed = true
     }
 }

@@ -48,4 +48,14 @@ extension CreamTableViewController
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 450
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        self.hidesBottomBarWhenPushed = true
+        let creame = CreamVM.creams[indexPath.row]
+        let playerVC = PlayerViewController()
+        playerVC.creame = creame
+        navigationController?.pushViewController(playerVC, animated: true)
+
+    }
 }

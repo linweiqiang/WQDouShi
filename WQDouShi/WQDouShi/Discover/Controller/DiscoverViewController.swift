@@ -17,6 +17,7 @@ class DiscoverViewController: UITableViewController,DiscoverTableViewCellDelegat
         playerView.stopPlayWhileCellNotVisable = true
         return playerView
         
+        
     }()
     
     override func viewDidLoad() {

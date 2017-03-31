@@ -10,5 +10,7 @@
 #define WQDouShi_Bridging_Header_h
 
 #import "ZFPlayer.h"       // 播放器
+#import <IJKMediaFramework/IJKMediaFramework.h>      // 直播播放
+
 
 #endif /* WQDouShi_Bridging_Header_h */
